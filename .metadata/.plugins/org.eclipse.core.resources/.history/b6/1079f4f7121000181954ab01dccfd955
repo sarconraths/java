@@ -1,0 +1,40 @@
+
+public class Songs {
+	public String SongId; 
+	public String SongTitel; 
+	public int InterpId;
+	
+	public Songs() {
+		
+	}
+	public Songs (String id, String sn, int intId){
+		setSongId(id);
+		setSongName(sn);
+		setIntId(intId);
+	}
+	
+	public void setSongId(String id) {
+		SongId = id; 		
+	}
+	public String getSongId() {
+		return SongId; 
+	}
+	public void setSongName(String sn) {
+		SongTitel = sn; 
+	}
+	public String getSongName() {
+		return SongTitel; 
+	}
+	public void setIntId(int intId) {
+		InterpId = intId;
+	}
+	public int getIntId() {
+		return InterpId; 
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.SongId + ", " + this.SongTitel + ", " + this.InterpId;
+	}
+}

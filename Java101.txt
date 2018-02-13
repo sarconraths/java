@@ -1,0 +1,80 @@
+Java
+
+To-do
+-> Eclipse auf den Rechner! 
+-> HelloWorld schreiben und verstehen
+Buch: Java ist auch eine Insel
+
+-von Sun
+Smalltalk, Eifel (frühe objektorientierte)
+
+rein objektorientiert. 
+Main Klasse: Hier startet das Programm
+
+kein code der direkt auf dem rechner läuft nach dem kompiliern, sondern zunächst Bytecode
+J2ME - Mobilversion
+
+J2SE - Java 2 Standard Edition, normales "PC-Java" 
+Compiler nicht nur von Sun, auch von GNU, IBM J9 (steckt hinter Eclipse)
+Laufzeitumgebungen: OpenJDK(?) mittlerweile auch gut, wichtig bzgl. Lizenzen
+
+J2EE - Java Enterprise Edition. Keine separate Version, Zusatzbibliothek
+
+Swing - Desktop-UI (auch: AWT)
+
+SWT - Standard Widget Toolkit, benutzt zB Eclipse
+
+Zur Sprache selber: 
+
+package... Pfad: x.y.z (muss identisch sein mit dem Pfad)
+class MyClass { 	(Datei muss MyClass.java heißen!)
+} (nach der letzten klammer kommt nichts mehr!)
+
+Modifikatoren für die Zugriffssichtbarkeiten: 
+- private
+- public protected private
+- nix - wenn nix dabei steht, automatisch package
+Definitiv weitere Modifikatoren anschauen, z.B. static=klassenvariable
+- final (für klassen, methode, variablen) - können nicht verändert werden
+- synchronized - methode, wenn sie läuft, kann man sie nicht nochmal starten
+
+polymorphismus (Java ist polymorph) - volatile
+
+Import: java.lang o.ä. 
+Hinweise für compiler und für besseren code
+
+In klasse: Instanvariablen und Methoden
+Destruktor: (gibts nicht in Java?)
+Garbage Collector: sorgt dafür, dass Speicher freigeräumt wird - erkennt, ab wann Variable nicht mehr gebraucht wird. 
+dagegen unset: (?)
+
+Destruktor ist die Methode, die aufgerufen wird beim freigeben des Speichers. Hat den Sinn, dass man weitere Speicher freigebende Dinge
+aufrufen kann
+
+Konstruktor: Stellt Instanz auf die Füße
+In Java: finalize, oder sinnvoller: zentrales delete manuell einbauen
+
+Wichtige weitere Aspekte:
+- Klasse kann man auf null setzen
+- Boxing/Unboxing
+- Java kann generics
+
+Interface definiert Methodensignaturen
+ 
+Vererbung in Java geht nur in eine Richtung (z.B. C++ in mehrere)
+- Klassenhierarchie 
+
+
+JDBC: Datenbank Zugriffstechnik für Java
+
+
+Set: z.B. Orte auf der Landkarte, z.B. Stadtteile, sind ein Set - jedes gibt es nur ein mal. 
+In einer Liste wird nicht auf Duplikate geachtet, z.B. Tour eines Taxifahrers
+Map: Zugehöriger Schlüssel. Taxifahrer: Schlüssel=Passagier, Wert=Ort an den er wollte. 
+Schlüssel in einer Map sind eindeutig!
+
+Array list/Linked list
+
+
+
+

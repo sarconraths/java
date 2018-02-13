@@ -1,0 +1,37 @@
+
+public class Songs {
+	public int SongId; 
+	public String SongTitel; 
+	public int InterpId;
+	
+	public Songs() {
+		
+	}
+	public Songs (int id, String sn, int intId){
+		setSongId(id);
+		setSongName(sn);
+		setIntId(intId);
+	}
+	
+	
+	private void setIntId(int intId) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void setSongName(String sn) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void setSongId(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.Vorname + " " + this.Nachname + ", " + this.Alter;
+	}
+	
+}

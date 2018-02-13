@@ -1,0 +1,28 @@
+Fendt-App, 10.07.: 
+
+
+Funktion
+
+- Fendt Caravans Nederland BV Eintrag keine Karte und keine Entfernungs- oder Richtungsangabe in der Liste (Routenplanung funktioniert aber)
+
+- Partnerliste filtern im Landscape-Modus auf Tablet nicht möglich (unten abgeschnitten)
+	- bei der Länderauswahl "einige Länder" -> österreich?; Mehr Länder -> Andorra
+
+- Pinnwand - Thementyp: fixiert - nur für Admins? 
+
+- Noch immer kein Zurück im Kalender
+
+- Einstellungen, was ist Wow?! (Einstellung ist momentan 'Vollgas')
+
+
+
+Content
+
+- Fotowettbewerb hat noch keinen Beschreibungstext
+
+- Menüpunkt Technik raus? 
+
+- Gesundheit und Notdienste hat keinen Inhalt
+- Weitere Kontaktadressen ebenfalls kein Inhalt
+
+- Spots Kategorien, sind z.B. auch Neuigkeiten, Technik und Marktplatz, das hat ja mit Spots eigentlich nichts zu tun

@@ -1,0 +1,31 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		ArrayList<Songs> people = new ArrayList<Songs>();
+
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\schs\\Documents\\Ausbildung\\Übungen-Lernen\\Java\\datei.txt"));
+			String s;
+			while ((s = br.readLine()) != null) {
+				String[] arr = s.split("\\|");
+				int age = Integer.parseInt(arr[2]);
+				if (arr.length >= 3) {
+					people.add(new Songs(arr[0], arr[1], age));
+				}
+			}
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	
+	}
+}

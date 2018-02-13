@@ -1,0 +1,166 @@
+JAVA Aufgaben - (Muster) -Lösungen!
+
+1.--------------------------------------
+public String notString(String str) {
+  if (str.length() >= 3 && str.substring(0, 3).equals("not")) {
+    return str;
+  }
+  
+  return "not " + str;
+}
+----------------------------------------
+
+2. -------------------------------------
+public class SubString {
+	public static void main(String[] args){
+	    String str = "Java Exercises!";
+       
+        int index1 = str.charAt(0);
+        int index2 = str.charAt(10);
+
+        System.out.println("The character at position 0 is " +
+            (char)index1);
+        System.out.println("The character at position 10 is " +
+            (char)index2);
+	}
+}
+----------------------------------------
+
+3.--------------------------------------
+public class TestSubstr {
+	public static void main(String[] args){
+		int n = 15;
+		if(100-n<10 || 200-n<10){
+			System.out.println("true");
+		}else {
+			System.out.println("false");
+		}
+	}
+}
+---------------------------------------
+
+4.-------------------------------------
+public class TestSubstr {
+	public static void main(String[] args){
+		boolean neg = true;
+		int a = 1;
+		int b = 2;
+		
+		if(neg){
+			if(a<0 && b<0){
+				System.out.println("true");
+			}else{
+				System.out.println("false");
+			}
+		}
+		if(neg=false){
+			if(a<0 ^ b<0){
+				System.out.println("true");
+			}else{
+				System.out.println("false");
+			}
+		}
+	}
+}
+----------------------------------------
+
+5.--------------------------------------
+public class TestSubstr {
+	public static void main(String[] args){
+		String str = "kitten";
+		int n = (0);
+		String front = str.substring(0, n);
+		String back = str.substring(n+1, str.length());
+	System.out.println(front+back);
+	}
+}
+----------------------------------------
+
+6.--------------------------------------
+
+public class TestSubstr {
+	public static void main(String[] args){
+	String str = "banana";
+	String mid = str.substring(1,  str.length()-1);
+	
+		if(str.length() <= 1){
+			System.out.println(str);
+		
+		}else{
+			System.out.println(str.charAt(str.length()-1)+mid+str.charAt(0));
+		}
+	}
+}
+----------------------------------------
+
+7.--------------------------------------
+public class TestSubstr {
+	public static void main(String[] args){
+		String front;
+		String str = "h";
+		  
+		  if (str.length() >= 3) {
+		    front = str.substring(0, 3);
+		  }
+		  else {
+		    front = str;
+		  }
+
+		  System.out.println(front + front + front);
+		}
+}
+-----------------------------------------
+
+8.---------------------------------------
+
+public class TestSubstr {
+	public static void main(String[] args){
+	String str = "cat";	
+	System.out.println(str.charAt(str.length()-1)+str+str.charAt(str.length()-1));
+	}
+}
+-----------------------------------------
+
+9.---------------------------------------
+public class TestSubstr {
+	public static void main(String[] args){
+	}
+	
+	public boolean mod() {
+		int neg = 7;
+		return(neg%3 == 0 || neg%5 == 0);
+	}
+}
+----------------------------------------
+
+10.-------------------------------------
+public class TestSubstr {
+	public static void main(String[] args){
+	String str = "kitten";
+	if(str.length()>=3){
+		System.out.println(str.substring(0, 2)+str+str.substring(0,2));
+	}else{
+		System.out.println(str + str + str);
+	}
+	}
+}
+----------------------------------------
+
+11.-------------------------------------
+public boolean in1020(){
+	int a = 1;
+	int b = 17;
+	
+	return((a <=20 && a >=10) || (b >= 10 && b <= 20));	
+}
+----------------------------------------
+
+12.-------------------------------------
+public boolean hasTeen(int a, int b, int c) {
+  
+return((a>=13 && a<=19) || (b>=13 && b<=19) || (c>=13 && c<=19));
+
+}
+----------------------------------------
+
+
